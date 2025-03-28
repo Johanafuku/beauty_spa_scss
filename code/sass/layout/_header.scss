@@ -1,0 +1,54 @@
+header {
+    @include align-items-flex();
+    justify-content: space-between;
+   
+    a.header-logo img.logo-icon{
+            width: 145px;
+            padding-top: 13px
+    }
+
+    .login {
+        @include align-items-flex();
+        gap: 15px;
+        ul li {
+            @include reset-link();
+            
+        }
+
+        &-icon, &-info {
+            align-items: center;
+        }
+
+        &-icon a{
+            padding: 8px;
+            
+            img {
+                width: 27px;
+            }
+            
+        }
+
+        &-info {
+            li {
+                padding: 8px;
+                .button-blue {
+                    @include botton-blue();
+                    font-weight: normal;
+                }
+                .sign-in {
+                    text-decoration: underline;
+                }
+            }
+
+            a {
+                font-size: 14px;
+                padding: 10px;
+                color: $blue;  
+                font-weight: lighter;
+                
+            }
+        }
+      
+
+    }
+}

@@ -1,0 +1,18 @@
+.menu {
+    padding-right: 50px;
+    ul li {
+        @include reset-link();
+        a {
+            color: $blue;
+            padding-left: 15px;
+            padding-right: 15px;
+            font-size: 14px;
+            font-weight: lighter;
+            
+            .menu-arrow {
+                position: relative;
+                top: 8px;
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.hero {
+    max-width: 50%;
+    margin-top: 70px;
+    margin-bottom: 90px;
+    &-title {
+        font-size: 45px;
+        line-height: 60px;
+        color: $blue;
+        margin-bottom: 30px;
+    }
+    &-description {
+        font-size: 16px;
+        color: $grey;
+        max-width: 95%;
+        margin-bottom: 30px;
+    }
+    &-buttons {
+        margin-top: -50px;
+        .button-watch {
+            align-self: center;
+            border: none;
+            background-color: transparent;
+            height: 20px;
+            margin: 0px;
+            color: $blue;
+        }
+        img.play {
+            width: 86px;
+            position:relative;
+            top: 52px;
+            left: 14px;
+        }
+    }
+
+}

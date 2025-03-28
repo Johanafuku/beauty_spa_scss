@@ -1,0 +1,54 @@
+@mixin breakpoint($bp) {
+
+  @if $bp == tablet {
+    @media (min-width: $bp-tablet) {
+      @content;
+    }
+  } 
+  
+@if $bp == tablethorizontal {
+  @media (min-width: $bp-tablet-horizontal) {
+    @content;
+    }
+  } 
+
+@if $bp == desktop {
+  @media (min-width: $bp-desktop) {
+    @content;
+  }
+} 
+
+@if $bp == desktopxl {
+  @media (min-width: $bp-desktop-xl) {
+    @content;
+}
+} 
+}
+
+@mixin reset-link() { 
+  display: inline-flex;
+  
+  a {
+    text-decoration: none;
+  }
+}
+
+@mixin align-items-flex(){
+  display: flex;
+  align-items: center;
+}
+
+@mixin botton-blue() {
+  background-color: $blue;
+  color: $white;
+  border-radius: 50%;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  border: none;
+}
