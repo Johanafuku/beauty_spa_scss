@@ -2,6 +2,10 @@
 
 This is the Hero of a beauty spa website. It was built with HTML, Sass, and vite to compile. 
 
+# preview 
+
+![beauty-spa](/code/img/preview-design.png)
+
 ## Features
 
 ✅ Use of Sass and 7-1 architecture.
@@ -54,6 +58,10 @@ Follow the steps:
 #  Salón spa 
 
 Este es el Hero de un salón de belleza. Se construyó utilizando HTML, SCSS, y vite para compilar. 
+
+# preview 
+
+![beauty-spa](/code/img/preview-design.png)
 
 ## Características
 
