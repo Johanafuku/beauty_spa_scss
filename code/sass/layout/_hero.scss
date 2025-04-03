@@ -23,6 +23,13 @@
             height: 20px;
             margin: 0px;
             color: $blue;
+            text-decoration: none;
+      
+        }
+        .button-blue {
+            @include botton-blue();
+            font-weight: normal;
+            text-decoration: none;
         }
         img.play {
             width: 86px;
